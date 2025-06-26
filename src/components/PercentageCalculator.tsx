@@ -52,7 +52,7 @@ const PercentageCalculator = () => {
               placeholder="Enter starting value"
               value={startingValue}
               onChange={(e) => setStartingValue(e.target.value)}
-              className="text-lg h-12 border-2 border-gray-200 focus:border-blue-500 transition-colors"
+              className="text-lg h-12 border-2 border-gray-200 focus:border-blue-500 transition-colors [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
             />
           </div>
           
@@ -66,7 +66,7 @@ const PercentageCalculator = () => {
               placeholder="Enter final value"
               value={finalValue}
               onChange={(e) => setFinalValue(e.target.value)}
-              className="text-lg h-12 border-2 border-gray-200 focus:border-blue-500 transition-colors"
+              className="text-lg h-12 border-2 border-gray-200 focus:border-blue-500 transition-colors [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
             />
           </div>
         </div>
